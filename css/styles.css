@@ -1,0 +1,89 @@
+
+.container {
+width: 85%;
+background-color: #ffffff; /*white*/
+margin: 0 auto;
+
+}
+
+header {
+	background-color: #00e600; /*green*/
+	height: 100px;
+	padding-left: 2%;
+	padding-top: 2%;
+}
+nav {
+	background-color: #ffc966; /*orange*/
+	height: 70px;
+	padding-left: 2%;
+	padding-top: 2%;
+}
+main {
+	background-color: #3333ff; /*blue*/
+	height: 320px;
+	width: 60%;
+	float: left;
+	text-indent: 2%;
+	padding-top: 2%;
+}
+aside {
+	background-color: #ff3333; /*red*/
+	height: 320px;
+	width: 40%;
+	float: right;
+	text-indent: 2%;
+	padding-top: 2%;
+}
+.promo {
+	margin: 2px;
+	width: 100%;
+}
+
+#promo1, #promo2, #promo3, #promo4 {
+	clear: both;
+	background-color: #cccccc; /*gray*/
+	height: 200px;
+	width: 25%;
+	border: 1px solid black;
+	box-sizing: border-box;
+	display: inline-block;
+	margin: -2px;
+	text-indent: 2%;
+	padding-top: 2%;
+}
+
+footer {
+	background-color: #1a1a1a; /*gray*/
+	color: #fff; /*white*/
+	height: 60px;
+	padding-left: 2%;
+	padding-top: 2%;
+}
+
+@media (max-width: 468px) {
+	#promo1 {background-color: #b300b2; /*purple*/
+	width: 50%;
+	}
+	#promo2 {background-color: #b300b2; /*purple*/
+	width: 50%;
+	}
+	#promo3 {background-color: #b300b2; /*purple*/
+	width: 50%;
+	}
+	#promo4 {background-color: #b300b2; /*purple*/
+	width: 50%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
